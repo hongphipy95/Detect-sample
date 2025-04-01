@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Experimental-tube']
+
+roboflow:
+  workspace: test-tauup
+  project: test-tube-y1y5k-as8kx
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/test-tauup/test-tube-y1y5k-as8kx/dataset/2
