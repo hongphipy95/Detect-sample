@@ -11,7 +11,7 @@ from PIL import Image, ImageTk
 # -------------------------------
 # Cấu hình và tham số
 # -------------------------------
-MODEL_PATH = r"D:\AIYOLO\Detect sample\Test Tube2\seg.pt"  
+MODEL_PATH = r"D:\1. DU AN\33. Detect sample\Detect-sample\models\seg.pt"  
 # Mô hình YOLOv8 segmentation với 2 lớp: "tube" và "blood"
 TUBE_DIAMETER = 13          # mm
 TUBE_HEIGHT_REAL = 100      # mm
