@@ -2,7 +2,7 @@ import cv2
 from ultralytics import YOLO
 
 # Load mô hình YOLO segmentation
-model = YOLO("D:\1. DU AN\33. Detect sample\Detect-sample\models\seg.pt")
+model = YOLO(r"D:\1. DU AN\33. Detect sample\Detect-sample\models\seg.pt")
 
 # Mở kết nối đến camera laptop (ID 0)
 cap = cv2.VideoCapture(0)
